@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SkillFlow</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="logo2">
+        <img src="./img/Logo.png" height="270vh">
+    </div>
+    <div class="main-container">
+        <div class="login-container">
+            <div class="form-box">
+                <h2>Welcome Back!</h2>
+                <p>Login to your account</p><br>
+                <form id="loginForm" action="index.html">
+                    <div class="input-field">
+                        <input type="text" id="username" placeholder="Username" onkeyup="validateName()" required>
+                        <div class="message" id="usernameMessage"></div>
+                        <i class="icon-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="password" placeholder="Password" onkeyup="validatePassword()" required>
+                        <div class="message" id="passwordMessage"></div>
+                        <i class="icon-lock"></i>
+                    </div>
+                    <button type="Home">Login</Login></button>
+                    <p id="error-message"></p>
+                </form>
+                <div class="footer">
+                    <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/loginscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillFlow - Learn Coding with Ease</title>
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <header>
+        <img src="./img/Logo.png" alt="SkillFlow Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <!--Banner Section-->
+    <section class="banner">
+        <img src="img/banner plain.jpg" alt="Coding Banner">
+        <div class="banner-text">
+            <h1>Welcome to SkillFlow</h1>
+            <p>Your go-to platform for mastering programming languages.</p>
+            <input type="text" id="searchBar" placeholder="Search tutorials..." onkeyup="searchTutorials()">
+        </div>
+    </section>
+    <!--Tutorials Section-->
+    <main>
+        <section class="tutorials">
+            <h2>Explore Our Tutorials</h2>
+            <div class="tutorial-link">
+                <a href="tutorials/html.html" class="tutorial-card">HTML</a>
+                <a href="tutorials/css.html" class="tutorial-card">CSS</a>
+                <a href="tutorials/javascript.html" class="tutorial-card">JavaScript</a>
+                <a href="tutorials/java.html" class="tutorial-card">Java</a>
+                <a href="tutorials/python.html" class="tutorial-card">Python</a>
+                <a href="tutorials/sql.html" class="tutorial-card">SQL</a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <!-- Logo and Description -->
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="SkillFlow Logo">
+                <p>Your pathway to mastering programming languages and technology.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tutorials/html.html">HTML</a></li>
+                    <li><a href="tutorials/css.html">CSS</a></li>
+                    <li><a href="tutorials/javascript.html">JavaScript</a></li>
+                    <li><a href="tutorials/python.html">Python</a></li>
+                    <li><a href="tutorials/sql.html">SQL</a></li>
+                    <li><a href="tutorials/java.html">Java</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <p>Subscribe to our newsletter for the latest updates and tutorials.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#"><img src="../img/facebook-logo-png-38360.png" alt="Facebook"></a>
+                <a href="#"><img src="../img/vecteezy_x-new-twitter-logo_34800663.png" alt="Twitter"></a>
+                <a href="#"><img src="../img/icons8-linkedin-48.png" alt="LinkedIn"></a>
+                <a href="#"><img src="../img/vecteezy_instagram-logo-png-instagram-icon-transparent_18930415.png" alt="Instagram"></a>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 SkillFlow. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/mainscript.js" defer></script>
+</body>
+</html>
